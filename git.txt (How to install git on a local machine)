@@ -1,0 +1,66 @@
+Kindly follow these steps on how to install Git on your local machine:
+
+FOR WINDOWS
+1. Download Git: 
+- Visit the official Git website: https://git-scm.com/download/win
+- Click on download according to your windows OS setup
+- Run the downloaded installer
+
+2.Installation Settings:
+- During the installation, you can choose the default settings or customize them based on your preferences
+- Select the default editor for Git (e.g. Vim or Notepad++)
+
+3. Adjusting your PATH environment:
+- Choose the recommended option "Use Git from the Windows Command Prompt" to include Git in your system's PATH
+
+4. Choosing HTTPS transport backend:
+- Choose the default option "Use the OpenSSL library" for secure HTTPS connections
+
+5. Completing the installation:
+- Click "Next" through the subsequent screens and complete the installation
+
+6. Verify Installation:
+- Open a new Command Prompt or Git Bash window
+- Type git --version and press Enter to verify that Git has been successfully installed
+
+
+
+For macOS:
+
+1. Install Git via Xcode Command Line Tools:
+- Open Terminal, which is available in Applications > Utilities > Terminal.
+- Type the following command [xcode-select --install] and press Enter:
+
+2. Install Homebrew:
+- If Homebrew is not installed, you can install it by running:     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+3. Install Git using Homebrew:
+- Run the following command to install Git:      brew install git
+
+4. Verify Installation:
+- Type git --version and press Enter to verify that Git has been successfully installed
+
+
+F Lorinux OS (Ubuntu/Debian):
+
+1. Update Package Lists:
+- Open a terminal.
+- Update the package lists with the command:      sudo apt-get update
+
+2. Install Git:
+- Install Git with the command:       sudo apt-get install git
+
+3. Verify Installation:
+- Type git --version and press Enter to verify that Git has been successfully installed.
+
+
+For Linux (Fedora):
+1. Update Package Lists:
+- Open a terminal.
+- Update the package lists with the command:      sudo dnf update
+
+2. Install Git:
+Install Git with the command:        sudo dnf install git
+
+3. Verify Installation:
+- Type git --version and press Enter to verify that Git has been successfully installed.
