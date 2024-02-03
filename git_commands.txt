@@ -1,0 +1,41 @@
+1. git remote add remote_name remote_url: A convenient tool for administering remote connections. 
+Instead of passing the fullURL to the fetch, pull, and push commands, it lets you use a more meaningful shortcut
+
+2. git clone repository_url: Creates a copy of an existing Git repository.
+
+3. git add filename: Moves changes from the working directory to the staging area.
+
+4. git commit -m "commit message": Takes the staged snapshot and commits it to the project history.
+
+5. git status: Show the status of changes as untracked, modified, or staged.
+
+6. git log: Display the commit history.
+
+7. git branch:  It lets you create isolated development environments within a single repository.
+
+8. git branch <branch_name>: Create a new branch.
+
+9. git checkout branch_name: Switch to a different branch.
+
+10. git merge branch_name: Merge changes from one branch into the current branch.
+
+11. git pull: It downloads a branch from a remote repository, then immediately merges it into the current branch.
+
+12. git push: t lets you move a local branch to another repository, which serves as a convenient way to publish 
+contributions.
+
+13. git remote -v: Show the remote repositories linked to your local repository.
+
+14. git diff: Display the differences between working directory and the last commit.
+
+15. git reset: Unstage changes in the staging area.
+
+16. git revert <commit_hash>: Create a new commit that undoes changes made in a previous commit.
+
+17. git fetch: Download objects and refs from another repository.
+
+18. git tag <tag_name>: Create a tag to mark a specific commit in history.
+
+19. git stash: Save changes that are not ready to be committed yet.
+
+20. git init: Initialize a new Git repository.
